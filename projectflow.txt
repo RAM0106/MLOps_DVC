@@ -3,3 +3,5 @@ create a code.py file and add code to it (it will save a csv file to new data fo
 do a git addcommit push before initialisation of DVC
 do pip install dvc 
 initiate the DVC 
+now type mkdir S3
+now type "dvc remote add -d myremote S3"
