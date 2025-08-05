@@ -4,12 +4,12 @@ data = {"name": ["Alice", "Bob", "Charlie"],"age": [25, 30, 35],"city": ["New Yo
 df = pd.DataFrame(data)
 
 #adding a new row to df for version 2 of data
-"""new_row_loc = {"name": "David", "age": 28, "city": "San Francisco"} # type: ignore
-df.loc[len(df.index)] = new_row_loc"""
+new_row_loc = {"name": "David", "age": 28, "city": "San Francisco"} # type: ignore
+df.loc[len(df.index)] = new_row_loc
 
 #adding new row to df for version 3 of data
-"""new_row_loc = {"name": "Eve", "age": 22, "city": "Miami"} # type: ignore
-df.loc[len(df.index)] = new_row_loc"""
+new_row_loc = {"name": "Eve", "age": 22, "city": "Miami"} # type: ignore
+df.loc[len(df.index)] = new_row_loc
 
 #Ensureing the data directory exists at the root level 
 data_dir = "data"
